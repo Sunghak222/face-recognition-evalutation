@@ -79,23 +79,23 @@ FaceRecognition/
 ### Installation
 
 
-conda create -n arcface python=3.10 -y
-conda activate arcface
-pip install -r requirements.txt
+conda create -n arcface python=3.10 -y  
+conda activate arcface  
+pip install -r requirements.txt  
 
 ### run
-Set DATASET_PATH and MODEL_PATH for arcface_embed.py, arcface2_embed.py, curricular_embed.py, and curricular2_embed.py.
-DATASET_PATH: the path where your ifw dataset located. It will be ../FaceRecognition/dataset/lfw-deepfunneled/lfw-deepfunneled
-MODEL_PATH: the path where your backbone model of curricularface located.
+Set DATASET_PATH and MODEL_PATH for arcface_embed.py, arcface2_embed.py, curricular_embed.py, and curricular2_embed.py.  
+DATASET_PATH: the path where your ifw dataset located. It will be ../FaceRecognition/dataset/lfw-deepfunneled/lfw-deepfunneled  
+MODEL_PATH: the path where your backbone model of curricularface located.  
             It will be /CurricularFace-master/backbone/CurricularFace_Backbone.pth
 # Step 1: Extract face embeddings
-python arcface_embed.py
-python curricular_embed.py
+python arcface_embed.py  
+python curricular_embed.py  
 
 # Step 2: Evaluate each model separately
-python arcface_eval.py
+python arcface_eval.py  
 python curricular_eval.py
 
 # Step 3: Compare ArcFace and CurricularFace
-python compare_eval.py         # for 200 × 3 setting
+python compare_eval.py         # for 200 × 3 setting  
 python compare_eval_300x4.py   # for 300 × 4 setting
