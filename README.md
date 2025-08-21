@@ -7,6 +7,7 @@ GenAI and external websites helped us for programming
 ---
 
 ## Folder Structure
+```plaintext
 FaceRecognition/ 
 ├── ArcFace/ 
 │   ├── arcface_embed.py
@@ -55,7 +56,7 @@ FaceRecognition/
 │
 └── dataset/ 
     └── lfw-deepfunneled/
-
+```
 ---
 
 ## Requirements
