@@ -1,6 +1,6 @@
 # Face Recognition with ArcFace and CurricularFace
 
-This project evaluates face recognition performance using two state-of-the-art face recognition models: ArcFace and CurricularFace with the LFW dataset.  
+This group project evaluates face recognition performance using two state-of-the-art face recognition models: ArcFace and CurricularFace with the LFW dataset.  
 Metrics such as ROC, CMC, FAR/FRR, and FPIR/FNIR are used for evaluation.
 
 GenAI and external websites helped us for programming
